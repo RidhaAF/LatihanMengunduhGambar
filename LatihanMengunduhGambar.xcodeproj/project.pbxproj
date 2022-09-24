@@ -16,6 +16,9 @@
 		DEF9213628DF5B2B00C1B5A4 /* LatihanMengunduhGambarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9213528DF5B2B00C1B5A4 /* LatihanMengunduhGambarTests.swift */; };
 		DEF9214028DF5B2B00C1B5A4 /* LatihanMengunduhGambarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9213F28DF5B2B00C1B5A4 /* LatihanMengunduhGambarUITests.swift */; };
 		DEF9214228DF5B2B00C1B5A4 /* LatihanMengunduhGambarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9214128DF5B2B00C1B5A4 /* LatihanMengunduhGambarUITestsLaunchTests.swift */; };
+		DEF9215028DF5C8700C1B5A4 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9214E28DF5C8700C1B5A4 /* MovieTableViewCell.swift */; };
+		DEF9215128DF5C8700C1B5A4 /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF9214F28DF5C8700C1B5A4 /* MovieTableViewCell.xib */; };
+		DEF9215328DF611A00C1B5A4 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9215228DF611A00C1B5A4 /* MovieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		DEF9213B28DF5B2B00C1B5A4 /* LatihanMengunduhGambarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatihanMengunduhGambarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF9213F28DF5B2B00C1B5A4 /* LatihanMengunduhGambarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatihanMengunduhGambarUITests.swift; sourceTree = "<group>"; };
 		DEF9214128DF5B2B00C1B5A4 /* LatihanMengunduhGambarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatihanMengunduhGambarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEF9214E28DF5C8700C1B5A4 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		DEF9214F28DF5C8700C1B5A4 /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
+		DEF9215228DF611A00C1B5A4 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				DEF9212728DF5B2A00C1B5A4 /* Assets.xcassets */,
 				DEF9212928DF5B2A00C1B5A4 /* LaunchScreen.storyboard */,
 				DEF9212C28DF5B2A00C1B5A4 /* Info.plist */,
+				DEF9214E28DF5C8700C1B5A4 /* MovieTableViewCell.swift */,
+				DEF9214F28DF5C8700C1B5A4 /* MovieTableViewCell.xib */,
+				DEF9215228DF611A00C1B5A4 /* MovieModel.swift */,
 			);
 			path = LatihanMengunduhGambar;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			files = (
 				DEF9212B28DF5B2A00C1B5A4 /* LaunchScreen.storyboard in Resources */,
 				DEF9212828DF5B2A00C1B5A4 /* Assets.xcassets in Resources */,
+				DEF9215128DF5C8700C1B5A4 /* MovieTableViewCell.xib in Resources */,
 				DEF9212628DF5B2900C1B5A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +270,8 @@
 			files = (
 				DEF9212328DF5B2900C1B5A4 /* ViewController.swift in Sources */,
 				DEF9211F28DF5B2900C1B5A4 /* AppDelegate.swift in Sources */,
+				DEF9215328DF611A00C1B5A4 /* MovieModel.swift in Sources */,
+				DEF9215028DF5C8700C1B5A4 /* MovieTableViewCell.swift in Sources */,
 				DEF9212128DF5B2900C1B5A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
