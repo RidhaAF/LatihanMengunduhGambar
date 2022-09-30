@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE2D048E28E722010076B32B /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D048D28E722010076B32B /* ImageDownloader.swift */; };
 		DEF9211F28DF5B2900C1B5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9211E28DF5B2900C1B5A4 /* AppDelegate.swift */; };
 		DEF9212128DF5B2900C1B5A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9212028DF5B2900C1B5A4 /* SceneDelegate.swift */; };
 		DEF9212328DF5B2900C1B5A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF9212228DF5B2900C1B5A4 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE2D048D28E722010076B32B /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		DEF9211B28DF5B2900C1B5A4 /* LatihanMengunduhGambar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LatihanMengunduhGambar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF9211E28DF5B2900C1B5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF9212028DF5B2900C1B5A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				DEF9214E28DF5C8700C1B5A4 /* MovieTableViewCell.swift */,
 				DEF9214F28DF5C8700C1B5A4 /* MovieTableViewCell.xib */,
 				DEF9215228DF611A00C1B5A4 /* MovieModel.swift */,
+				DE2D048D28E722010076B32B /* ImageDownloader.swift */,
 			);
 			path = LatihanMengunduhGambar;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				DEF9211F28DF5B2900C1B5A4 /* AppDelegate.swift in Sources */,
 				DEF9215328DF611A00C1B5A4 /* MovieModel.swift in Sources */,
 				DEF9215028DF5C8700C1B5A4 /* MovieTableViewCell.swift in Sources */,
+				DE2D048E28E722010076B32B /* ImageDownloader.swift in Sources */,
 				DEF9212128DF5B2900C1B5A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
